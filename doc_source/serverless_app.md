@@ -275,8 +275,7 @@ The folder structure will include the following:
   ```
   import json
   
-  import requests
-  
+  from botocore.vendored import requests
   
   def lambda_handler(event, context):
       """Sample pure Lambda function
